@@ -32,7 +32,7 @@ function App() {
           amount={expense.amount}
           date={expense.date}
           key={expense.id}
-        ></ExpenseItem>
+        />
       ))}
     </div>
   );
